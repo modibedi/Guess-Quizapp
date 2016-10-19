@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Sports"
+    android:background="#FFF59D">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="who is the legendary football star who headbutted Marco Materazzi in the world cup of 2006?"
+        android:textAlignment="center" />
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbZizou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:text="Zinedine Zidane" />
+
+        <RadioButton
+            android:id="@+id/rdbRonaldinho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="Ronaldinho">
+
+        </RadioButton>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the most expensive footballer in the world is?"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/Radiogroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbPogba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:text="paul pagba" />
+
+        <RadioButton
+            android:id="@+id/rdbBale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="gareth bale">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the number one lady in tennis is?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbSerrina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:text="Serina Williams" />
+
+        <RadioButton
+            android:id="@+id/rdbKerber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:text="Angelique Kerber">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="when did orlando pirates football club win their trophy of the african CAF?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdpbucs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:text="1995" />
+
+        <RadioButton
+            android:id="@+id/rdb2020"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="1996">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="who is the south african minister of sport?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbMbalula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:text="fikile mbalula" />
+
+        <RadioButton
+            android:id="@+id/rdb1967"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:text="julius Malema">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:onClick="submit"
+        android:background="#EEFF41"/>
+
+</LinearLayout>

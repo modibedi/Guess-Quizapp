@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Currentaffairs"
+    android:background="#FFF59D">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="who is the president of the political movement cope?"
+        android:textAlignment="center" />
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbDikgesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+
+            android:text="Pakes Dikgetsi" />
+
+        <RadioButton
+            android:id="@+id/rdbLekota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="16dp"
+
+            android:text="Musiwa Lekota">
+
+        </RadioButton>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the mediator of the fees must fall campain with university of Wits is?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+    <RadioGroup
+        android:id="@+id/Radiogroup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbTosh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+
+            android:text="peter tosh" />
+
+        <RadioButton
+            android:id="@+id/rdbMpofu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+
+            android:text="Dali Mpofu">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Archbishop Desmond Tutu is turning how many years today?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdbTutu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+
+            android:text="87" />
+
+        <RadioButton
+            android:id="@+id/rdbDesmond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+
+            android:text="85">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the worlds highest speed travelled by a motor vehicle will be removed from the Guinness World Records in south africa in the year?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdb2017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+
+            android:text="2017" />
+
+        <RadioButton
+            android:id="@+id/rdb2020"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+
+            android:text="2020">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the country Haiti was hit by an earth quake in which year?"
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/Radiogroup5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdb2010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:text="2010"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rdb1967"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+
+            android:text="1967">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:onClick="submit"
+        android:background="#EEFF41"/>
+
+
+</LinearLayout>

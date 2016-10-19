@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Logon"
+    android:background="#03A9F4">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="current affairs"
+        android:onClick="startActivityCurrentAffairs"
+        android:textSize="24sp"
+        android:textColor="#8BC34A"
+        android:background="#FF5722"
+        android:layout_marginTop="18dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Sports"
+        android:textSize="24sp"
+        android:onClick="startActivitySports"
+        android:textColor="#FF5722"
+        android:background="#BA68C8"
+        android:layout_marginTop="18dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="entertainment"
+        android:onClick="startActivityEntertainment"
+        android:textSize="24sp"
+        android:textColor="#E91E63"
+        android:background="#FFEA00"
+        android:layout_marginTop="18dp"/>
+</LinearLayout>
